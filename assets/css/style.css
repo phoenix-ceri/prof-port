@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    
+    min-height: 100vh;
+    background-image: url(../images/goth.jpg);
+}
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../images/redgoth.jpg);
+    color: #ffffff;
+}
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+  } 
+  nav a {
+    color: #b9C6ae;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+footer {
+    padding: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-image: url(../images/redgoth.jpg);
+}
+footer span{
+    color: beige;
+}
+.about {
+    width: 500px auto;
+    margin: 30px auto;
+    border: 5px solid;
+    border-radius: 25px;
+    background-image:url(../images/wall.png);
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-align: center; 
+    
+}
+.about p{
+    font-size: 25px;
+}
+.about li{
+    font-size: 20px;
+}
+
+.works{
+    width:fit-content auto;
+    margin: 30px auto;
+    border: 5px solid;
+    border-radius: 25px;
+    background-image:url(../images/wall.png);
+    padding: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px; 
+    text-align: center;
+}
+
+
+.contact {
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    border: 5px solid black;
+    border-radius: 25px;
+    background-image:url(../images/wall.png);
+    margin: 50px auto;
+
+}
+
+.hero {
+    height: 500px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/possum.png");
+    background-size: cover;
+    background-position: center;
+}
