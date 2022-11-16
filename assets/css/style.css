@@ -7,12 +7,12 @@
 body {
     
     min-height: 100vh;
-    background-image: url(../images/goth.jpg);
+    background-image: url(../backgrounds/goth.jpg);
 }
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-image: url(../images/redgoth.jpg);
+    background-image: url(../backgrounds/redgoth.jpg);
     color: #ffffff;
 }
 header h1 {
@@ -62,7 +62,7 @@ footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-align: center;
-    background-image: url(../images/redgoth.jpg);
+    background-image: url(../backgrounds/redgoth.jpg);
 }
 footer span{
     color: beige;
@@ -72,7 +72,7 @@ footer span{
     margin: 30px auto;
     border: 5px solid;
     border-radius: 25px;
-    background-image:url(../images/wall.png);
+    background-image:url(../backgrounds/wall.png);
     padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
@@ -91,7 +91,7 @@ footer span{
     margin: 30px auto;
     border: 5px solid;
     border-radius: 25px;
-    background-image:url(../images/wall.png);
+    background-image:url(../backgrounds/wall.png);
     padding: 25px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px; 
@@ -107,7 +107,7 @@ footer span{
     padding: 10px;
     border: 5px solid black;
     border-radius: 25px;
-    background-image:url(../images/wall.png);
+    background-image:url(../backgrounds/wall.png);
     margin: 50px auto;
 
 }
