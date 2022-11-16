@@ -30,7 +30,7 @@ header nav {
 nav ul {
     display: flex;
     justify-content: space-between;
-    min-width: 500px;
+    min-width: 350px ;
   } 
   nav a {
     color: #b9C6ae;
