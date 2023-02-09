@@ -4,7 +4,7 @@ This is a portfolio of my published content and a minor discription of who i am,
 ## Installation
 No instalation required
 
-![screenshot of website](./asetts/images/screen.png)
+![screenshot of website](./asetts/images/readme/image.png)
 ## Usage
 https://phoenixceriport.netlify.app/index.html
 To see What i have done and gather a copy of my resume
