@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Phoenix-Ceri Portfolio</title>
+    <meta name="author" content="Phoenix-Ceri Powell" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assetts/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Vollkorn+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1 class="logo">Phoenix-Ceri Powell</h1>
+
+        <nav>
+          <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li>
+              <a
+                href="./PhoenixPowellResume.docx.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Resume</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!---------------------------------------------------------------------------------------------------------------------------------------------->
+    <!--email form-->
+    <div class="center">
+      <h1>Contact Me!</h1>
+    </div>
+    <div class="mailcontainer">
+      <form
+        action="action_page.php"
+        action="https://formsubmit.co/your@email.com"
+        method="POST"
+      >
+        <!--Honeypot-->
+        <input type="text" name="_honey" style="display: none" />
+
+        <input type="hidden" name="_captcha" value="false" />
+        <div class="row">
+          <div class="col-25">
+            <label for="name">First Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your First Name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your Last Name"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="email">Email</label>
+          </div>
+          <div class="col-75">
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write Your Email Here"
+              style="height: 200px"
+            ></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+    <script src="" async defer></script>
+  </body>
+</html>
